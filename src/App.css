@@ -1,6 +1,7 @@
 .app-wrapper {
+    margin: 0 auto;
     display: grid;
-
+    width: 1200px;
     grid-template-areas:
     "h h"
     "n c";
@@ -10,21 +11,21 @@
     /* grid-gap: 10px; */
 }
 
-.aboba {
+.header {
     grid-area: h;
     background-color: #09d3ac;
 }
 
-.aboba img {
+.header img {
     width: 58px;
 }
 
-.biba {
+.nav {
     grid-area: n;
     background-color: darkorange;
 }
 
-.sanya {
+.content {
     grid-area: c;
     background-color: brown;
 }
